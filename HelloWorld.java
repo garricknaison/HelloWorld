@@ -103,6 +103,7 @@ public class HelloWorld {
                     "Wrong.\nI am simply tired with you, so I am ending this program. Talk to you late when you can actually think (maybe).");
             pause(5000);
             System.exit(0);
+            // it will continue..
         }
 
     }
