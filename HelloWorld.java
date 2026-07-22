@@ -12,6 +12,7 @@ public class HelloWorld {
     }
 
     public static void main(String args[]) {
+        int lock = 1;
         System.out.println("Hello user");
         pause(2000);
         ;
@@ -103,8 +104,29 @@ public class HelloWorld {
                     "Wrong.\nI am simply tired with you, so I am ending this program. Talk to you late when you can actually think (maybe).");
             pause(5000);
             System.exit(0);
-            // it will continue..
-        }
 
+        }
+        pause(1000);
+        System.out.println("So.. what do you want to do now?");
+        pause(2000);
+        System.out.println(
+                "Try answering this question... what is the sum of the expression: 1/2 + 1/4 + 1/8 + 1/16 ...up to infinity.");
+        pause(1000);
+        System.out.println("Take your time.");
+        int ansinf = gn.nextInt();
+        if (ansinf == lock) {
+            System.out.println("Correct... how did you do that? I thought you would fail in the attempt.");
+        } else {
+            System.out.println("\u001B[3msigh....\u001B[0m");
+            pause(2000);
+            System.out.println(
+                    "Wrong.\nI guess that was too hard for you, here:\n2+3 = \n Try that problem.");
+            pause(2000);
+            System.out.println(
+                    "And in case you didn't understand, that was irony. So you don't really need to answer that question. I am also doing you a favor by ending this program. Thank me later :)");
+            pause(5000);
+            System.exit(0);
+
+        }
     }
 }
