@@ -57,10 +57,6 @@ public class HelloWorld {
             System.out.println("\u001B[3mMmmmmm.....\u001B[0m");
             pause(1000);
             System.out.println("So we have a small kid with us... whatever.");
-        } else if (age >= 18 && age <= 100) {
-            System.out.println("Hey adult.");
-            pause(1000);
-            System.out.println("\u001B[3mI really hope you are not lying....\u001B[0m");
         } else if (age >= 0 || age > 100) {
             System.out.println("Who are you trying to kid?");
             pause(2000);
@@ -68,6 +64,10 @@ public class HelloWorld {
             pause(2500);
             System.out.println("Nah.. I will do it myself.");
             System.exit(0);
+        } else if (age >= 18 && age <= 100) {
+            System.out.println("Hey adult.");
+            pause(1000);
+            System.out.println("\u001B[3mI really hope you are not lying....\u001B[0m");
         }
         gn.nextLine();
         pause(2000);
