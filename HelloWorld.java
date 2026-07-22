@@ -20,7 +20,7 @@ public class HelloWorld {
         pause(2000);
         System.out.println(
                 "Just so you know, I made this program when I was bored, actually no point in it, so if you want you can quit now, by entering \'~'.");
-        System.out.println("If you want to continue, press any other key.");
+        System.out.println("If you want to continue, press any other key.(Pressing enter doesn't count.')");
         char qui = gn.next().charAt(0);
         if (qui == '~') {
             pause(2000);
