@@ -88,7 +88,7 @@ public class HelloWorld {
         pause(2000);
         System.out.println("\u001B[3msigh....\u001B[0m");
         pause(2000);
-        System.out.println("This isn't fun'.");
+        System.out.println("This isn't fun.");
         pause(2000);
         System.out.println("What about this?");
         pause(1000);
@@ -114,6 +114,7 @@ public class HelloWorld {
         pause(1000);
         System.out.println("Take your time.");
         int ansinf = gn.nextInt();
+        pause(2000);
         if (ansinf == lock) {
             System.out.println("Correct... how did you do that? I thought you would fail in the attempt.");
         } else {
