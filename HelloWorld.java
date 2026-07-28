@@ -57,7 +57,7 @@ public class HelloWorld {
             System.out.println("\u001B[3mMmmmmm.....\u001B[0m");
             pause(1000);
             System.out.println("So we have a small kid with us... whatever.");
-        } else if (age >= 0 || age > 100) {
+        } else if (age <= 0 || age > 100) {
             System.out.println("Who are you trying to kid?");
             pause(2000);
             System.out.println("\u001B[3mProbably a child.... doesn't matter, get out of here\u001B[0m");
